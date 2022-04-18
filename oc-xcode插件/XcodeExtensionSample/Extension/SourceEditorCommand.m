@@ -12,7 +12,6 @@
 @implementation UTI
 
 
-
 @end
 
 @implementation SweetSourceEditorCommand
@@ -58,11 +57,25 @@
 //    case cancel;
 //    };
     XCSourceTextBuffer * textBuffer = invocation.buffer;
-    [textBuffer contentUTI];
+    
+    SweetSourceEditorCommand *sweetSourceEditorCommand =[[SweetSourceEditorCommand alloc]init];
+    NSInteger isOrNot = [[sweetSourceEditorCommand validUTIs] containsObject:[textBuffer typedContentUTI]];
+    
+    switch (isOrNot) {
+        case 0:
+            // all UTIs can execute the command.
+            NSLog(@"nil");
+            break;
+            
+        case 1:
+            // this UTI can execute the command.
+        default:
+            break;
+    }
 //    @try {
-//        
-//        
-//        
+//
+//
+//
 //    } @catch (NSException *exception) {
 //        <#Handle an exception thrown in the @try block#>
 //    } @finally {
@@ -152,3 +165,24 @@
 //}
 
 @end
+
+@implementation XCSourceTextBuffer
+
+-(UTI*)typedContentUTI
+{
+    UTI *uti =[[UTI alloc]init];
+    [uti setValue:_contentUTI];
+    return uti;
+}
+
+-(NSString*)selectedText:(BOOL)includesUnselectedStartAndEnd :(BOOL)trimsIndents
+{
+    NSMutableArray<NSString*>*texts=[[NSMutableArray alloc]init];
+    NSInteger minimumIndentLength=NSIntegerMax;
+    
+    
+    return @"";
+}
+
+@end
+

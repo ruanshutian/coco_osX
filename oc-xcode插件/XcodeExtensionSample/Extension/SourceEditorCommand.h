@@ -8,6 +8,7 @@
 #import <XcodeKit/XcodeKit.h>
 //Equatable
 @interface UTI :NSObject
+
 @property(nonatomic)NSString *value;
 
 @end
@@ -45,4 +46,9 @@
 
 
 @interface SourceEditorCommand : SweetSourceEditorCommand
+@end
+
+@interface XCSourceTextBuffer ()
+-(UTI*)typedContentUTI;
+
 @end
