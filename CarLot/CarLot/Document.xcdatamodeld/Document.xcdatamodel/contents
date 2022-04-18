@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G527" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Car" representedClassName="Car" syncable="YES" codeGenerationType="class">
+        <attribute name="condition" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="datePurchased" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="makeModel" optional="YES" attributeType="String"/>
+        <attribute name="onSpecial" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable"/>
+        <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>

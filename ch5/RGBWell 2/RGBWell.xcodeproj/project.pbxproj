@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD090A9727F58FFF008B0A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090A9627F58FFF008B0A28 /* AppDelegate.m */; };
+		CD090A9927F59001008B0A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD090A9827F59001008B0A28 /* Assets.xcassets */; };
+		CD090A9C27F59001008B0A28 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD090A9A27F59001008B0A28 /* MainMenu.xib */; };
+		CD090A9F27F59001008B0A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090A9E27F59001008B0A28 /* main.m */; };
+		CD090AAA27F59001008B0A28 /* RGBWellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090AA927F59001008B0A28 /* RGBWellTests.m */; };
+		CD090AB527F59001008B0A28 /* RGBWellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090AB427F59001008B0A28 /* RGBWellUITests.m */; };
+		CD090AC527F590EA008B0A28 /* MainWindowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090AC327F590EA008B0A28 /* MainWindowsController.m */; };
+		CD090AC627F590EA008B0A28 /* MainWindowsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD090AC427F590EA008B0A28 /* MainWindowsController.xib */; };
+		CD090AC927F6CB7F008B0A28 /* AronSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CD090AC827F6CB7F008B0A28 /* AronSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD090AA627F59001008B0A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD090A8A27F58FFF008B0A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD090A9127F58FFF008B0A28;
+			remoteInfo = RGBWell;
+		};
+		CD090AB127F59001008B0A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD090A8A27F58FFF008B0A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD090A9127F58FFF008B0A28;
+			remoteInfo = RGBWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD090A9227F58FFF008B0A28 /* RGBWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD090A9527F58FFF008B0A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD090A9627F58FFF008B0A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD090A9827F59001008B0A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD090A9B27F59001008B0A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD090A9D27F59001008B0A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD090A9E27F59001008B0A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD090AA027F59001008B0A28 /* RGBWell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGBWell.entitlements; sourceTree = "<group>"; };
+		CD090AA527F59001008B0A28 /* RGBWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD090AA927F59001008B0A28 /* RGBWellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBWellTests.m; sourceTree = "<group>"; };
+		CD090AAB27F59001008B0A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD090AB027F59001008B0A28 /* RGBWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD090AB427F59001008B0A28 /* RGBWellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBWellUITests.m; sourceTree = "<group>"; };
+		CD090AB627F59001008B0A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD090AC227F590EA008B0A28 /* MainWindowsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowsController.h; sourceTree = "<group>"; };
+		CD090AC327F590EA008B0A28 /* MainWindowsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowsController.m; sourceTree = "<group>"; };
+		CD090AC427F590EA008B0A28 /* MainWindowsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowsController.xib; sourceTree = "<group>"; };
+		CD090AC727F6CB7F008B0A28 /* AronSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AronSlider.h; sourceTree = "<group>"; };
+		CD090AC827F6CB7F008B0A28 /* AronSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AronSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD090A8F27F58FFF008B0A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AA227F59001008B0A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AAD27F59001008B0A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD090A8927F58FFF008B0A28 = {
+			isa = PBXGroup;
+			children = (
+				CD090A9427F58FFF008B0A28 /* RGBWell */,
+				CD090AA827F59001008B0A28 /* RGBWellTests */,
+				CD090AB327F59001008B0A28 /* RGBWellUITests */,
+				CD090A9327F58FFF008B0A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD090A9327F58FFF008B0A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD090A9227F58FFF008B0A28 /* RGBWell.app */,
+				CD090AA527F59001008B0A28 /* RGBWellTests.xctest */,
+				CD090AB027F59001008B0A28 /* RGBWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD090A9427F58FFF008B0A28 /* RGBWell */ = {
+			isa = PBXGroup;
+			children = (
+				CD090AC327F590EA008B0A28 /* MainWindowsController.m */,
+				CD090AC727F6CB7F008B0A28 /* AronSlider.h */,
+				CD090AC827F6CB7F008B0A28 /* AronSlider.m */,
+				CD090AC427F590EA008B0A28 /* MainWindowsController.xib */,
+				CD090AC227F590EA008B0A28 /* MainWindowsController.h */,
+				CD090A9527F58FFF008B0A28 /* AppDelegate.h */,
+				CD090A9627F58FFF008B0A28 /* AppDelegate.m */,
+				CD090A9827F59001008B0A28 /* Assets.xcassets */,
+				CD090A9A27F59001008B0A28 /* MainMenu.xib */,
+				CD090A9D27F59001008B0A28 /* Info.plist */,
+				CD090A9E27F59001008B0A28 /* main.m */,
+				CD090AA027F59001008B0A28 /* RGBWell.entitlements */,
+			);
+			path = RGBWell;
+			sourceTree = "<group>";
+		};
+		CD090AA827F59001008B0A28 /* RGBWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD090AA927F59001008B0A28 /* RGBWellTests.m */,
+				CD090AAB27F59001008B0A28 /* Info.plist */,
+			);
+			path = RGBWellTests;
+			sourceTree = "<group>";
+		};
+		CD090AB327F59001008B0A28 /* RGBWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD090AB427F59001008B0A28 /* RGBWellUITests.m */,
+				CD090AB627F59001008B0A28 /* Info.plist */,
+			);
+			path = RGBWellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD090A9127F58FFF008B0A28 /* RGBWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD090AB927F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWell" */;
+			buildPhases = (
+				CD090A8E27F58FFF008B0A28 /* Sources */,
+				CD090A8F27F58FFF008B0A28 /* Frameworks */,
+				CD090A9027F58FFF008B0A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBWell;
+			productName = RGBWell;
+			productReference = CD090A9227F58FFF008B0A28 /* RGBWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD090AA427F59001008B0A28 /* RGBWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD090ABC27F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWellTests" */;
+			buildPhases = (
+				CD090AA127F59001008B0A28 /* Sources */,
+				CD090AA227F59001008B0A28 /* Frameworks */,
+				CD090AA327F59001008B0A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD090AA727F59001008B0A28 /* PBXTargetDependency */,
+			);
+			name = RGBWellTests;
+			productName = RGBWellTests;
+			productReference = CD090AA527F59001008B0A28 /* RGBWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD090AAF27F59001008B0A28 /* RGBWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD090ABF27F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWellUITests" */;
+			buildPhases = (
+				CD090AAC27F59001008B0A28 /* Sources */,
+				CD090AAD27F59001008B0A28 /* Frameworks */,
+				CD090AAE27F59001008B0A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD090AB227F59001008B0A28 /* PBXTargetDependency */,
+			);
+			name = RGBWellUITests;
+			productName = RGBWellUITests;
+			productReference = CD090AB027F59001008B0A28 /* RGBWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD090A8A27F58FFF008B0A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD090A9127F58FFF008B0A28 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD090AA427F59001008B0A28 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD090A9127F58FFF008B0A28;
+					};
+					CD090AAF27F59001008B0A28 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD090A9127F58FFF008B0A28;
+					};
+				};
+			};
+			buildConfigurationList = CD090A8D27F58FFF008B0A28 /* Build configuration list for PBXProject "RGBWell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD090A8927F58FFF008B0A28;
+			productRefGroup = CD090A9327F58FFF008B0A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD090A9127F58FFF008B0A28 /* RGBWell */,
+				CD090AA427F59001008B0A28 /* RGBWellTests */,
+				CD090AAF27F59001008B0A28 /* RGBWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD090A9027F58FFF008B0A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD090A9927F59001008B0A28 /* Assets.xcassets in Resources */,
+				CD090A9C27F59001008B0A28 /* MainMenu.xib in Resources */,
+				CD090AC627F590EA008B0A28 /* MainWindowsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AA327F59001008B0A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AAE27F59001008B0A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD090A8E27F58FFF008B0A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD090A9F27F59001008B0A28 /* main.m in Sources */,
+				CD090A9727F58FFF008B0A28 /* AppDelegate.m in Sources */,
+				CD090AC927F6CB7F008B0A28 /* AronSlider.m in Sources */,
+				CD090AC527F590EA008B0A28 /* MainWindowsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AA127F59001008B0A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD090AAA27F59001008B0A28 /* RGBWellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD090AAC27F59001008B0A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD090AB527F59001008B0A28 /* RGBWellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD090AA727F59001008B0A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD090A9127F58FFF008B0A28 /* RGBWell */;
+			targetProxy = CD090AA627F59001008B0A28 /* PBXContainerItemProxy */;
+		};
+		CD090AB227F59001008B0A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD090A9127F58FFF008B0A28 /* RGBWell */;
+			targetProxy = CD090AB127F59001008B0A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD090A9A27F59001008B0A28 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD090A9B27F59001008B0A28 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD090AB727F59001008B0A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD090AB827F59001008B0A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD090ABA27F59001008B0A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RGBWell/RGBWell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD090ABB27F59001008B0A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RGBWell/RGBWell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD090ABD27F59001008B0A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Debug;
+		};
+		CD090ABE27F59001008B0A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Release;
+		};
+		CD090AC027F59001008B0A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGBWell;
+			};
+			name = Debug;
+		};
+		CD090AC127F59001008B0A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.RGBWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGBWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD090A8D27F58FFF008B0A28 /* Build configuration list for PBXProject "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD090AB727F59001008B0A28 /* Debug */,
+				CD090AB827F59001008B0A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD090AB927F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD090ABA27F59001008B0A28 /* Debug */,
+				CD090ABB27F59001008B0A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD090ABC27F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD090ABD27F59001008B0A28 /* Debug */,
+				CD090ABE27F59001008B0A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD090ABF27F59001008B0A28 /* Build configuration list for PBXNativeTarget "RGBWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD090AC027F59001008B0A28 /* Debug */,
+				CD090AC127F59001008B0A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD090A8A27F58FFF008B0A28 /* Project object */;
+}
