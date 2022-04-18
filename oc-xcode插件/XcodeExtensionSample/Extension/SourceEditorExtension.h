@@ -6,6 +6,7 @@
 //
 
 #import <XcodeKit/XcodeKit.h>
+#import <Foundation/Foundation.h>
 
 @interface SourceEditorExtension : NSObject <XCSourceEditorExtension>
 

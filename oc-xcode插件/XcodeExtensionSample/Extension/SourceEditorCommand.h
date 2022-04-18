@@ -6,7 +6,43 @@
 //
 
 #import <XcodeKit/XcodeKit.h>
+//Equatable
+@interface UTI :NSObject
+@property(nonatomic)NSString *value;
 
-@interface SourceEditorCommand : NSObject <XCSourceEditorCommand>
+@end
 
+@interface SweetSourceEditorCommand : NSObject<XCSourceEditorCommand>
+
+-(NSString *)commandName;
+
+-(NSString*)commandIdentifier;
+
+-(BOOL)performImpl:(XCSourceTextBuffer*)textBuffer;
+
+-(NSDictionary <XCSourceEditorCommandDefinitionKey, NSString*> *)commandDefinition;
+
+@end
+
+@interface PasteboardOutputCommand : SweetSourceEditorCommand
+@end
+@interface PasteboardInputCommand : SweetSourceEditorCommand
+@end
+@interface OpenAppCommand : SweetSourceEditorCommand
+@end
+@interface URLSchemeCommand : SweetSourceEditorCommand
+@end
+@interface LocalCommandCommand : SweetSourceEditorCommand
+@end
+@interface NetworkCommand : SweetSourceEditorCommand
+@end
+@interface ToDesktopCommand1 : SweetSourceEditorCommand
+@end
+@interface ToDesktopCommand2 : SweetSourceEditorCommand
+@end
+@interface FileSelectionCommand : SweetSourceEditorCommand
+@end
+
+
+@interface SourceEditorCommand : SweetSourceEditorCommand
 @end

@@ -18,7 +18,7 @@ class SweetSourceEditorCommand: NSObject, XCSourceEditorCommand {
     /// for XCSourceEditorCommandDefinitionKey.nameKey.
     /// can be overridden.
     class var commandName: String {
-        return className()
+        return self.className();
     }
 
     /// for XCSourceEditorCommandDefinitionKey.identifierKey.

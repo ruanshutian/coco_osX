@@ -92,10 +92,11 @@
 		CD1E390028082A26003FE7F4 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
 		CD1E390128082A26003FE7F4 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
 		CD1E390328082A26003FE7F4 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
-		CD1E390428082A26003FE7F4 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD1E390428082A26003FE7F4 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; wrapsLines = 0; };
 		CD1E390628082A26003FE7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1E390728082A26003FE7F4 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
 		CD1E390F28082A31003FE7F4 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD3401AB280C2EDB00D014A1 /* XCSourceTextBuffer+XCTextBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCSourceTextBuffer+XCTextBuffer.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +206,7 @@
 				CD1E390128082A26003FE7F4 /* SourceEditorExtension.m */,
 				CD1E390328082A26003FE7F4 /* SourceEditorCommand.h */,
 				CD1E390428082A26003FE7F4 /* SourceEditorCommand.m */,
+				CD3401AB280C2EDB00D014A1 /* XCSourceTextBuffer+XCTextBuffer.h */,
 				CD1E390628082A26003FE7F4 /* Info.plist */,
 				CD1E390728082A26003FE7F4 /* Extension.entitlements */,
 			);
