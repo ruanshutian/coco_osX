@@ -51,11 +51,6 @@
 
 - (void)performCommandWithInvocation:(nonnull XCSourceEditorCommandInvocation *)invocation completionHandler:(nonnull void (^)(NSError * _Nullable))completionHandler {
 
-//    typedef enum Closing{
-////    case (NSError * _Nullable)complete;
-//    case complete=NSError * _Nullable;
-//    case cancel;
-//    };
     XCSourceTextBuffer * textBuffer = invocation.buffer;
     
     SweetSourceEditorCommand *sweetSourceEditorCommand =[[SweetSourceEditorCommand alloc]init];

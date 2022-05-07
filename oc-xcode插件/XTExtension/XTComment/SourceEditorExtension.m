@@ -27,7 +27,7 @@
     NSArray <NSDictionary <XCSourceEditorCommandDefinitionKey, id> *> * res=@[
         @{XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",
         XCSourceEditorCommandIdentifierKey:@"CustomIdentifier",
-        XCSourceEditorCommandNameKey:@"CustomeName"}
+        XCSourceEditorCommandNameKey:@"CustomeName2"}
     ];
     
     return res;

@@ -20,19 +20,16 @@
 - (NSArray <NSDictionary <XCSourceEditorCommandDefinitionKey, id> *> *)commandDefinitions
 {
     // If your extension needs to return a collection of command definitions that differs from those in its Info.plist, implement this optional property getter.
-    
-    NSArray <NSDictionary <XCSourceEditorCommandDefinitionKey, id> *> *res=@[
-        @{
-            XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",XCSourceEditorCommandIdentifierKey:@"easycode.insertcode",XCSourceEditorCommandNameKey:@"Insert EasyCode"
+    NSArray <NSDictionary <XCSourceEditorCommandDefinitionKey, id> *> * res=@[
+        @{XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",
+          XCSourceEditorCommandIdentifierKey:@"easycode.insertcode",
+          XCSourceEditorCommandNameKey:@"insertcode"
         },
-        @{
-            XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",XCSourceEditorCommandIdentifierKey:@"easycode.editmapping",XCSourceEditorCommandNameKey:@"Edit Mapping"
-        },
-        @{
-            XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",XCSourceEditorCommandIdentifierKey:@"xxx",XCSourceEditorCommandNameKey:@"xxx"
+        @{XCSourceEditorCommandClassNameKey:@"SourceEditorCommand",
+          XCSourceEditorCommandIdentifierKey:@"easycode.editmapping",
+          XCSourceEditorCommandNameKey:@"editmapping"
         }
     ];
-    
     return res;
 }
  
