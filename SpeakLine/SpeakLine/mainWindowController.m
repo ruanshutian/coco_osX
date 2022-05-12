@@ -26,16 +26,11 @@
     self.speechSynth.delegate = self;
     
     self.voices=[NSSpeechSynthesizer availableVoices];
-//    NSLog(@"------%@",_voices);
     
-    
-    
-    for(NSString *voice in self.voices)
-    {
-//        [voice self.voiceNameForIdentifier:voice];
-//        voiceNameForIdentifier(voice);
-        NSLog(@" voice = %@  ",[self voiceNameForIdentifier:voice]);
-    }
+//    for(NSString *voice in self.voices)
+//    {
+//        NSLog(@" voice = %@  ",[self voiceNameForIdentifier:voice]);
+//    }
     
     if ([self.voices count] < 1) {
         return;
@@ -46,7 +41,7 @@
     _preferenceManager= [[PreferenceManagerS alloc]init];
     NSString *defaultVoice = [_preferenceManager activeVoiceKeyXXX];
 //    NSString* defaultVoice = _preferenceManager.activeVoiceKey;
-    
+    NSLog(@"defaultVoice = %@",defaultVoice);
 //    NSString *defaultRow = [_voices index];
     NSInteger defalutRow = 0;
     for (NSString *voice in self.voices) {

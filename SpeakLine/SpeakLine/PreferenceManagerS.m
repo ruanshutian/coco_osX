@@ -28,7 +28,9 @@
     if (self) {
         _activeVoiceKey = @"Alex";
         _activeTextKey = @"activeText111";
-        _userDefaults = [NSUserDefaults standardUserDefaults];        
+        _userDefaults = [NSUserDefaults standardUserDefaults];
+//        _userDefaults = [[NSUserDefaults alloc]init];
+        [_userDefaults synchronize];
         [self registerDefaultPreferences];
     }
     return self;
@@ -45,6 +47,7 @@
     {
         return @"";
     }
+    NSLog(@"[_userDefaults objectForKey:_activeVoiceKey] = %@",[_userDefaults objectForKey:_activeVoiceKey]);
     return [_userDefaults objectForKey:_activeVoiceKey];
 
 }
@@ -69,8 +72,10 @@
 //    [_activeTextKey valueForKey:@"Able was I ere I saw Elba."];
     [self setActiveVoiceKeyXXX:[NSSpeechSynthesizer defaultVoice]];
     [self setActiveTextKey:@"Able was I ere I saw Elba."];
-//    [_userDefaults registerDefaults:defaults];
-    NSLog(@"%@",_userDefaults);
+    [_userDefaults registerDefaults:defaults];
+    
+//    [defaults synchronize];
+    NSLog(@"_userDefaults = %@",_userDefaults);
 }
 
 @end
