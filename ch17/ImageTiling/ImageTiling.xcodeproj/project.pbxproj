@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7AECD4282E5DCC003318B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECD3282E5DCC003318B6 /* AppDelegate.m */; };
+		CD7AECD6282E5DCE003318B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7AECD5282E5DCE003318B6 /* Assets.xcassets */; };
+		CD7AECD9282E5DCE003318B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7AECD7282E5DCE003318B6 /* MainMenu.xib */; };
+		CD7AECDB282E5DCE003318B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECDA282E5DCE003318B6 /* main.m */; };
+		CD7AECE6282E5DCE003318B6 /* ImageTilingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECE5282E5DCE003318B6 /* ImageTilingTests.m */; };
+		CD7AECF0282E5DCE003318B6 /* ImageTilingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECEF282E5DCE003318B6 /* ImageTilingUITests.m */; };
+		CD7AECF2282E5DCE003318B6 /* ImageTilingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECF1282E5DCE003318B6 /* ImageTilingUITestsLaunchTests.m */; };
+		CD7AED01282E5E4E003318B6 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AECFF282E5E4E003318B6 /* MainWindowController.m */; };
+		CD7AED02282E5E4E003318B6 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7AED00282E5E4E003318B6 /* MainWindowController.xib */; };
+		CD7AED05282E5EB7003318B6 /* TiledImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AED04282E5EB7003318B6 /* TiledImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7AECE2282E5DCE003318B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7AECC7282E5DCC003318B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7AECCE282E5DCC003318B6;
+			remoteInfo = ImageTiling;
+		};
+		CD7AECEC282E5DCE003318B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7AECC7282E5DCC003318B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7AECCE282E5DCC003318B6;
+			remoteInfo = ImageTiling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7AECCF282E5DCC003318B6 /* ImageTiling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTiling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AECD2282E5DCC003318B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7AECD3282E5DCC003318B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7AECD5282E5DCE003318B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7AECD8282E5DCE003318B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD7AECDA282E5DCE003318B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7AECDC282E5DCE003318B6 /* ImageTiling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageTiling.entitlements; sourceTree = "<group>"; };
+		CD7AECE1282E5DCE003318B6 /* ImageTilingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTilingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AECE5282E5DCE003318B6 /* ImageTilingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTilingTests.m; sourceTree = "<group>"; };
+		CD7AECEB282E5DCE003318B6 /* ImageTilingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTilingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7AECEF282E5DCE003318B6 /* ImageTilingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTilingUITests.m; sourceTree = "<group>"; };
+		CD7AECF1282E5DCE003318B6 /* ImageTilingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTilingUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD7AECFE282E5E4E003318B6 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		CD7AECFF282E5E4E003318B6 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		CD7AED00282E5E4E003318B6 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		CD7AED03282E5EB7003318B6 /* TiledImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledImageView.h; sourceTree = "<group>"; };
+		CD7AED04282E5EB7003318B6 /* TiledImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7AECCC282E5DCC003318B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECDE282E5DCE003318B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECE8282E5DCE003318B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7AECC6282E5DCC003318B6 = {
+			isa = PBXGroup;
+			children = (
+				CD7AECD1282E5DCC003318B6 /* ImageTiling */,
+				CD7AECE4282E5DCE003318B6 /* ImageTilingTests */,
+				CD7AECEE282E5DCE003318B6 /* ImageTilingUITests */,
+				CD7AECD0282E5DCC003318B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7AECD0282E5DCC003318B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AECCF282E5DCC003318B6 /* ImageTiling.app */,
+				CD7AECE1282E5DCE003318B6 /* ImageTilingTests.xctest */,
+				CD7AECEB282E5DCE003318B6 /* ImageTilingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7AECD1282E5DCC003318B6 /* ImageTiling */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AECD2282E5DCC003318B6 /* AppDelegate.h */,
+				CD7AECD3282E5DCC003318B6 /* AppDelegate.m */,
+				CD7AED03282E5EB7003318B6 /* TiledImageView.h */,
+				CD7AED04282E5EB7003318B6 /* TiledImageView.m */,
+				CD7AECD5282E5DCE003318B6 /* Assets.xcassets */,
+				CD7AECD7282E5DCE003318B6 /* MainMenu.xib */,
+				CD7AECFE282E5E4E003318B6 /* MainWindowController.h */,
+				CD7AECFF282E5E4E003318B6 /* MainWindowController.m */,
+				CD7AED00282E5E4E003318B6 /* MainWindowController.xib */,
+				CD7AECDA282E5DCE003318B6 /* main.m */,
+				CD7AECDC282E5DCE003318B6 /* ImageTiling.entitlements */,
+			);
+			path = ImageTiling;
+			sourceTree = "<group>";
+		};
+		CD7AECE4282E5DCE003318B6 /* ImageTilingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AECE5282E5DCE003318B6 /* ImageTilingTests.m */,
+			);
+			path = ImageTilingTests;
+			sourceTree = "<group>";
+		};
+		CD7AECEE282E5DCE003318B6 /* ImageTilingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AECEF282E5DCE003318B6 /* ImageTilingUITests.m */,
+				CD7AECF1282E5DCE003318B6 /* ImageTilingUITestsLaunchTests.m */,
+			);
+			path = ImageTilingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7AECCE282E5DCC003318B6 /* ImageTiling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AECF5282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTiling" */;
+			buildPhases = (
+				CD7AECCB282E5DCC003318B6 /* Sources */,
+				CD7AECCC282E5DCC003318B6 /* Frameworks */,
+				CD7AECCD282E5DCC003318B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageTiling;
+			productName = ImageTiling;
+			productReference = CD7AECCF282E5DCC003318B6 /* ImageTiling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7AECE0282E5DCE003318B6 /* ImageTilingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AECF8282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTilingTests" */;
+			buildPhases = (
+				CD7AECDD282E5DCE003318B6 /* Sources */,
+				CD7AECDE282E5DCE003318B6 /* Frameworks */,
+				CD7AECDF282E5DCE003318B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7AECE3282E5DCE003318B6 /* PBXTargetDependency */,
+			);
+			name = ImageTilingTests;
+			productName = ImageTilingTests;
+			productReference = CD7AECE1282E5DCE003318B6 /* ImageTilingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD7AECEA282E5DCE003318B6 /* ImageTilingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7AECFB282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTilingUITests" */;
+			buildPhases = (
+				CD7AECE7282E5DCE003318B6 /* Sources */,
+				CD7AECE8282E5DCE003318B6 /* Frameworks */,
+				CD7AECE9282E5DCE003318B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7AECED282E5DCE003318B6 /* PBXTargetDependency */,
+			);
+			name = ImageTilingUITests;
+			productName = ImageTilingUITests;
+			productReference = CD7AECEB282E5DCE003318B6 /* ImageTilingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7AECC7282E5DCC003318B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CD7AECCE282E5DCC003318B6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CD7AECE0282E5DCE003318B6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD7AECCE282E5DCC003318B6;
+					};
+					CD7AECEA282E5DCE003318B6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD7AECCE282E5DCC003318B6;
+					};
+				};
+			};
+			buildConfigurationList = CD7AECCA282E5DCC003318B6 /* Build configuration list for PBXProject "ImageTiling" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7AECC6282E5DCC003318B6;
+			productRefGroup = CD7AECD0282E5DCC003318B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7AECCE282E5DCC003318B6 /* ImageTiling */,
+				CD7AECE0282E5DCE003318B6 /* ImageTilingTests */,
+				CD7AECEA282E5DCE003318B6 /* ImageTilingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7AECCD282E5DCC003318B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AECD6282E5DCE003318B6 /* Assets.xcassets in Resources */,
+				CD7AED02282E5E4E003318B6 /* MainWindowController.xib in Resources */,
+				CD7AECD9282E5DCE003318B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECDF282E5DCE003318B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECE9282E5DCE003318B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7AECCB282E5DCC003318B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AED01282E5E4E003318B6 /* MainWindowController.m in Sources */,
+				CD7AECDB282E5DCE003318B6 /* main.m in Sources */,
+				CD7AECD4282E5DCC003318B6 /* AppDelegate.m in Sources */,
+				CD7AED05282E5EB7003318B6 /* TiledImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECDD282E5DCE003318B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AECE6282E5DCE003318B6 /* ImageTilingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7AECE7282E5DCE003318B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7AECF0282E5DCE003318B6 /* ImageTilingUITests.m in Sources */,
+				CD7AECF2282E5DCE003318B6 /* ImageTilingUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7AECE3282E5DCE003318B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7AECCE282E5DCC003318B6 /* ImageTiling */;
+			targetProxy = CD7AECE2282E5DCE003318B6 /* PBXContainerItemProxy */;
+		};
+		CD7AECED282E5DCE003318B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7AECCE282E5DCC003318B6 /* ImageTiling */;
+			targetProxy = CD7AECEC282E5DCE003318B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7AECD7282E5DCE003318B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7AECD8282E5DCE003318B6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7AECF3282E5DCE003318B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD7AECF4282E5DCE003318B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD7AECF6282E5DCE003318B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageTiling/ImageTiling.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTiling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD7AECF7282E5DCE003318B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageTiling/ImageTiling.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTiling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD7AECF9282E5DCE003318B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTilingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageTiling.app/Contents/MacOS/ImageTiling";
+			};
+			name = Debug;
+		};
+		CD7AECFA282E5DCE003318B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTilingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageTiling.app/Contents/MacOS/ImageTiling";
+			};
+			name = Release;
+		};
+		CD7AECFC282E5DCE003318B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTilingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ImageTiling;
+			};
+			name = Debug;
+		};
+		CD7AECFD282E5DCE003318B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ImageTilingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ImageTiling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7AECCA282E5DCC003318B6 /* Build configuration list for PBXProject "ImageTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AECF3282E5DCE003318B6 /* Debug */,
+				CD7AECF4282E5DCE003318B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AECF5282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AECF6282E5DCE003318B6 /* Debug */,
+				CD7AECF7282E5DCE003318B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AECF8282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTilingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AECF9282E5DCE003318B6 /* Debug */,
+				CD7AECFA282E5DCE003318B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7AECFB282E5DCE003318B6 /* Build configuration list for PBXNativeTarget "ImageTilingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7AECFC282E5DCE003318B6 /* Debug */,
+				CD7AECFD282E5DCE003318B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7AECC7282E5DCC003318B6 /* Project object */;
+}
