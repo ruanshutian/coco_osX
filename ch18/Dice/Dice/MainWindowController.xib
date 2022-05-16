@@ -15,30 +15,27 @@
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="651" height="228"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="651" height="228"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUq-Ho-GaC" customClass="DieView" colorLabel="IBBuiltInLabel-Yellow">
-                        <rect key="frame" x="37" y="81" width="104" height="104"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    </customView>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Jz-NG-uaf" customClass="DieView">
-                        <rect key="frame" x="203" y="81" width="104" height="104"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    </customView>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tqe-AS-gqD" customClass="DieView">
-                        <rect key="frame" x="362" y="81" width="104" height="104"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="SUq-Ho-GaC" customClass="DieView" colorLabel="IBBuiltInLabel-Yellow">
+                        <rect key="frame" x="20" y="20" width="440" height="230"/>
                     </customView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="SUq-Ho-GaC" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="5Qu-kE-two"/>
+                    <constraint firstAttribute="trailing" secondItem="SUq-Ho-GaC" secondAttribute="trailing" constant="20" id="7vD-JJ-2tS"/>
+                    <constraint firstItem="SUq-Ho-GaC" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="Fop-ZD-oUl"/>
+                    <constraint firstAttribute="bottom" secondItem="SUq-Ho-GaC" secondAttribute="bottom" constant="20" id="bSY-rN-8Bv"/>
+                </constraints>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="345" y="243"/>
+            <point key="canvasLocation" x="277" y="224"/>
         </window>
     </objects>
 </document>

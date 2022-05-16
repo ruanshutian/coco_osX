@@ -32,12 +32,12 @@
 
 
 
-- (NSInteger)intValue
-{
-    self.needsDisplay = YES;
-    self.intValue = _intValue;
-    return _intValue;
-}
+//- (NSInteger)intValue
+//{
+//    self.needsDisplay = YES;
+//    self.intValue = _intValue;
+//    return _intValue;
+//}
 
 - (instancetype)init{
 //    NSLog(@"init");
@@ -149,27 +149,11 @@
         
 //        [self randomize];
 //        NSLog(@"self.intValue = %ld",self.intValue);
-        NSLog(@"_intValue = %ld",_intValue);
         
-        if([@[@1,@3,@5] containsObject:@(_intValue)]){
-            drawDot(0.5,0.5);
-        }
-        if([@[@2,@3,@4,@5,@6] containsObject:@(_intValue)])
-        {
-            drawDot(0,1);
-            drawDot(1,0);
-        }
-        if([@[@4,@5,@6] containsObject:@(_intValue)])
-        {
-            drawDot(1,1);
-            drawDot(0,0);
-        }
-        if([@[@6] containsObject:@(_intValue)])
-        {
-            drawDot(0,0.5);
-            drawDot(1,0.5);
-        }
+        drawDot(0.5,0.5);
         
+//        drawDot(0,1);
+//        drawDot(1,0);
         
 //        NSMutableArray*array1=[[NSMutableArray alloc]init];
 //        [array1 addObject:];
@@ -225,57 +209,6 @@
 //    NSLog(@"_intValue = %ld",_intValue);
 }
 
-// MARK: - First Responder
-- (BOOL)acceptsFirstResponder
-{
-    return YES;
-}
-- (BOOL)becomeFirstResponder
-{
-    return YES;
-}
-- (BOOL)resignFirstResponder
-{
-    return YES;
-}
 
-// MARK: Keyboard Events
-- (void)keyDown:(NSEvent *)event
-{
-    NSLog(@"keyDown");
-    NSMutableArray<NSEvent*>*res = [[NSMutableArray alloc]init];
-    [res addObject:event];
-    [self interpretKeyEvents:res];
-}
-
-- (void)insertText:(id)insertString
-{
-    NSLog(@"insertText");
-    NSString*text = insertString;
-    NSLog(@"text = %@",text);
-    NSInteger number = [text intValue];
-    self.intValue = number;
-    NSLog(@"number = %ld",number);
-    NSLog(@"self.intValue = %ld",self.intValue);
-}
-
-- (void)drawFocusRingMask
-{
-    [NSBezierPath fillRect:self.bounds];
-}
-
-- (NSRect)focusRingMaskBounds
-{
-    return self.bounds;
-}
-
-- (void)insertTab:(id)sender
-{
-    [self.window selectNextKeyView:sender];
-}
-- (void)insertBacktab:(id)sender
-{
-    [self.window selectPreviousKeyView:sender];
-}
 
 @end
