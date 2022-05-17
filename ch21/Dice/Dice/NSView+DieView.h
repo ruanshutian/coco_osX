@@ -17,13 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface  DieView:NSView<NSDraggingSource>
+@interface  DieView:NSView
 
 //@property(nonatomic)NSRect bound;
 @property(nonatomic)NSInteger intValue;
 @property(nonatomic)BOOL pressed;
-@property(nonatomic)NSEvent *mouseDownEvent;
-@property(nonatomic)BOOL highlightForDragging;
+
 
 @end
 

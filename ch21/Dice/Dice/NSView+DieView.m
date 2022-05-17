@@ -39,30 +39,13 @@
 
 @end
 
-@implementation DieView 
+@implementation DieView
 
-- (instancetype)initWithFrame:(NSRect)frameRect
-{
-    self = [super initWithFrame:frameRect];
-    [self commonInit];
-    return self;
-}
 
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
-    self = [super initWithCoder:coder];
-    [self commonInit];
-    return self;
-}
--(void)commonInit
-{
-    [self registerForDraggedTypes:@[NSPasteboardTypeString]];
-}
 
 - (NSInteger)intValue
 {
     self.needsDisplay = YES;
-    
     self.intValue = _intValue;
     return _intValue;
 }
@@ -74,9 +57,7 @@
     {
         _intValue=1;
         _pressed =NO;
-        _highlightForDragging = NO;
-        self.needsDisplay =YES;
-        _mouseDownEvent = [[NSEvent alloc]init];
+        self.needsDisplay =1;
     }
     return self;
 }
@@ -96,17 +77,7 @@
 //    [path lineToPoint:CGPointMake(self.bounds.size.width, self.bounds.size.height)];
 //    [path stroke];
     
-//    [self drawDieWithSize:self.bounds.size];
-    NSLog(@"self.highlightForDragging = %d",self.highlightForDragging);
-    if(self.highlightForDragging)
-    {
-        NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor whiteColor] endingColor:backgroundColor];
-        [gradient drawInRect:self.bounds relativeCenterPosition:NSZeroPoint];
-    }
-    else{
-        [self drawDieWithSize:self.bounds.size];
-    }
-    
+    [self drawDieWithSize:self.bounds.size];
     
 }
 
@@ -251,9 +222,6 @@
 - (void)mouseDown:(NSEvent *)event
 {
     NSLog(@"mouseDown");
-    
-    self.mouseDownEvent = event;
-    
     _pressed = YES;
     CGFloat edgeLength ;
     CGRect dieFrame;
@@ -266,41 +234,6 @@
 - (void)mouseDragged:(NSEvent *)event
 {
     NSLog(@"mouseDragged");
-    
-    CGPoint downPoint = self.mouseDownEvent.locationInWindow;
-    CGPoint dragPoint = event.locationInWindow;
-    
-    double distanceDragged= hypot(downPoint.x-dragPoint.x, downPoint.y - dragPoint.y);
-    if(distanceDragged<3)
-    {
-        return;
-    }
-    self.pressed = NO;
-    
-    CGSize imageSize = self.bounds.size;
-    NSImage *image=[NSImage imageWithSize:imageSize flipped:NO drawingHandler:^BOOL(NSRect dstRect){
-        [self drawDieWithSize:dstRect.size];
-        return YES;
-    }];
-    
-    NSPoint draggingFrameOrigin = [self convertPoint:downPoint fromView:nil];
-    NSRect draggingFrameTemp;
-    draggingFrameTemp.origin =draggingFrameOrigin;
-    draggingFrameTemp.size = imageSize;
-    CGRect draggingFrame =CGRectOffset(draggingFrameTemp, -imageSize.width/2, -imageSize.height/2);
-    NSDraggingItem *item = [[NSDraggingItem alloc] initWithPasteboardWriter:[NSString stringWithFormat:@"%ld",self.intValue]];
-    item.draggingFrame = draggingFrame;
-    item.imageComponentsProvider =^NSArray*(void) {
-        NSDraggingImageComponent *component = [[NSDraggingImageComponent alloc] initWithKey:NSDraggingImageComponentIconKey];
-        component.contents = image;
-        NSRect temp ;
-        temp.origin = NSMakePoint(0, 0);
-        temp.size = imageSize;
-        component.frame =temp;
-        return @[component];
-    };
-    [self beginDraggingSessionWithItems:@[item] event:_mouseDownEvent source:self];
-    
 }
 
 - (void)mouseUp:(NSEvent *)event
@@ -447,51 +380,18 @@
     [self readFromPasteboard:[NSPasteboard generalPasteboard]];
 }
 
-
-// MARK: - Drag Source
-- (NSDragOperation)draggingSession:(NSDraggingSession *)session sourceOperationMaskForDraggingContext:(NSDraggingContext)context
-{
-    NSLog(@"draggingSession");
-    return NSDragOperationCopy | NSDragOperationDelete;
-}
-- (void)draggingSession:(NSDraggingSession *)session endedAtPoint:(NSPoint)screenPoint operation:(NSDragOperation)operation
-{
-    if(operation == NSDragOperationDelete)
-    {
-        _intValue =1000;
-    }
-    NSLog(@"self.intValue = %ld",self.intValue);
-}
-
-// MARK: - Drag Destination
-- (NSDragOperation)draggingEntered:(id<NSDraggingInfo>)sender
-{
-    if(sender.draggingSource == self)
-    {
-        return NSDragOperationNone;
-    }
-    self.highlightForDragging = YES;
-    NSLog(@"self.highlightForDragging = %d",self.highlightForDragging);
-    return [sender draggingSourceOperationMask];
-}
-- (void)draggingExited:(id<NSDraggingInfo>)sender
-{
-    self.highlightForDragging = NO;
-    NSLog(@"self.highlightForDragging = %d",self.highlightForDragging);
-}
-- (BOOL)prepareForDragOperation:(id<NSDraggingInfo>)sender
-{
-    return YES;
-}
-- (BOOL)performDragOperation:(id<NSDraggingInfo>)sender
-{
-    return [self readFromPasteboard:sender.draggingPasteboard];
-}
-- (void)concludeDragOperation:(id<NSDraggingInfo>)sender
-{
-    self.highlightForDragging = NO;
-    NSLog(@"self.highlightForDragging = %d",self.highlightForDragging);
-}
-
+//- (BOOL)validateMenuItem:(NSMenuItem *)menuItem
+//{
+//    NSLog(@"menuItem.action =%@",menuItem.action);
+////    switch (menuItem.action) {
+////        case Selec:
+////            <#statements#>
+////            break;
+////
+////        default:
+////            break;
+////    }
+//    return YES;
+//}
 
 @end
