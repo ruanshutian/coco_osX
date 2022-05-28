@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0B5DDA2834DFFB0080F455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B5DD92834DFFB0080F455 /* AppDelegate.m */; };
+		CD0B5DDC2834DFFD0080F455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B5DDB2834DFFD0080F455 /* Assets.xcassets */; };
+		CD0B5DDF2834DFFD0080F455 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0B5DDD2834DFFD0080F455 /* MainMenu.xib */; };
+		CD0B5DE12834DFFD0080F455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B5DE02834DFFD0080F455 /* main.m */; };
+		CD0B5DEC2834DFFD0080F455 /* AutoLabelOutAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B5DEB2834DFFD0080F455 /* AutoLabelOutAppTests.m */; };
+		CD0B5DF62834DFFD0080F455 /* AutoLabelOutAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B5DF52834DFFD0080F455 /* AutoLabelOutAppUITests.m */; };
+		CD0B5DF82834DFFD0080F455 /* AutoLabelOutAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B5DF72834DFFD0080F455 /* AutoLabelOutAppUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0B5DE82834DFFD0080F455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0B5DCD2834DFFB0080F455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0B5DD42834DFFB0080F455;
+			remoteInfo = AutoLabelOutApp;
+		};
+		CD0B5DF22834DFFD0080F455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0B5DCD2834DFFB0080F455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0B5DD42834DFFB0080F455;
+			remoteInfo = AutoLabelOutApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0B5DD52834DFFB0080F455 /* AutoLabelOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLabelOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B5DD82834DFFB0080F455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0B5DD92834DFFB0080F455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0B5DDB2834DFFD0080F455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0B5DDE2834DFFD0080F455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD0B5DE02834DFFD0080F455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0B5DE22834DFFD0080F455 /* AutoLabelOutApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoLabelOutApp.entitlements; sourceTree = "<group>"; };
+		CD0B5DE72834DFFD0080F455 /* AutoLabelOutAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLabelOutAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B5DEB2834DFFD0080F455 /* AutoLabelOutAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLabelOutAppTests.m; sourceTree = "<group>"; };
+		CD0B5DF12834DFFD0080F455 /* AutoLabelOutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLabelOutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B5DF52834DFFD0080F455 /* AutoLabelOutAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLabelOutAppUITests.m; sourceTree = "<group>"; };
+		CD0B5DF72834DFFD0080F455 /* AutoLabelOutAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLabelOutAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0B5DD22834DFFB0080F455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DE42834DFFD0080F455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DEE2834DFFD0080F455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0B5DCC2834DFFB0080F455 = {
+			isa = PBXGroup;
+			children = (
+				CD0B5DD72834DFFB0080F455 /* AutoLabelOutApp */,
+				CD0B5DEA2834DFFD0080F455 /* AutoLabelOutAppTests */,
+				CD0B5DF42834DFFD0080F455 /* AutoLabelOutAppUITests */,
+				CD0B5DD62834DFFB0080F455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0B5DD62834DFFB0080F455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B5DD52834DFFB0080F455 /* AutoLabelOutApp.app */,
+				CD0B5DE72834DFFD0080F455 /* AutoLabelOutAppTests.xctest */,
+				CD0B5DF12834DFFD0080F455 /* AutoLabelOutAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0B5DD72834DFFB0080F455 /* AutoLabelOutApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B5DD82834DFFB0080F455 /* AppDelegate.h */,
+				CD0B5DD92834DFFB0080F455 /* AppDelegate.m */,
+				CD0B5DDB2834DFFD0080F455 /* Assets.xcassets */,
+				CD0B5DDD2834DFFD0080F455 /* MainMenu.xib */,
+				CD0B5DE02834DFFD0080F455 /* main.m */,
+				CD0B5DE22834DFFD0080F455 /* AutoLabelOutApp.entitlements */,
+			);
+			path = AutoLabelOutApp;
+			sourceTree = "<group>";
+		};
+		CD0B5DEA2834DFFD0080F455 /* AutoLabelOutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B5DEB2834DFFD0080F455 /* AutoLabelOutAppTests.m */,
+			);
+			path = AutoLabelOutAppTests;
+			sourceTree = "<group>";
+		};
+		CD0B5DF42834DFFD0080F455 /* AutoLabelOutAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B5DF52834DFFD0080F455 /* AutoLabelOutAppUITests.m */,
+				CD0B5DF72834DFFD0080F455 /* AutoLabelOutAppUITestsLaunchTests.m */,
+			);
+			path = AutoLabelOutAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0B5DD42834DFFB0080F455 /* AutoLabelOutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0B5DFB2834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutApp" */;
+			buildPhases = (
+				CD0B5DD12834DFFB0080F455 /* Sources */,
+				CD0B5DD22834DFFB0080F455 /* Frameworks */,
+				CD0B5DD32834DFFB0080F455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLabelOutApp;
+			productName = AutoLabelOutApp;
+			productReference = CD0B5DD52834DFFB0080F455 /* AutoLabelOutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0B5DE62834DFFD0080F455 /* AutoLabelOutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0B5DFE2834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutAppTests" */;
+			buildPhases = (
+				CD0B5DE32834DFFD0080F455 /* Sources */,
+				CD0B5DE42834DFFD0080F455 /* Frameworks */,
+				CD0B5DE52834DFFD0080F455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0B5DE92834DFFD0080F455 /* PBXTargetDependency */,
+			);
+			name = AutoLabelOutAppTests;
+			productName = AutoLabelOutAppTests;
+			productReference = CD0B5DE72834DFFD0080F455 /* AutoLabelOutAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD0B5DF02834DFFD0080F455 /* AutoLabelOutAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0B5E012834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutAppUITests" */;
+			buildPhases = (
+				CD0B5DED2834DFFD0080F455 /* Sources */,
+				CD0B5DEE2834DFFD0080F455 /* Frameworks */,
+				CD0B5DEF2834DFFD0080F455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0B5DF32834DFFD0080F455 /* PBXTargetDependency */,
+			);
+			name = AutoLabelOutAppUITests;
+			productName = AutoLabelOutAppUITests;
+			productReference = CD0B5DF12834DFFD0080F455 /* AutoLabelOutAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0B5DCD2834DFFB0080F455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD0B5DD42834DFFB0080F455 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CD0B5DE62834DFFD0080F455 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CD0B5DD42834DFFB0080F455;
+					};
+					CD0B5DF02834DFFD0080F455 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CD0B5DD42834DFFB0080F455;
+					};
+				};
+			};
+			buildConfigurationList = CD0B5DD02834DFFB0080F455 /* Build configuration list for PBXProject "AutoLabelOutApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0B5DCC2834DFFB0080F455;
+			productRefGroup = CD0B5DD62834DFFB0080F455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0B5DD42834DFFB0080F455 /* AutoLabelOutApp */,
+				CD0B5DE62834DFFD0080F455 /* AutoLabelOutAppTests */,
+				CD0B5DF02834DFFD0080F455 /* AutoLabelOutAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0B5DD32834DFFB0080F455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0B5DDC2834DFFD0080F455 /* Assets.xcassets in Resources */,
+				CD0B5DDF2834DFFD0080F455 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DE52834DFFD0080F455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DEF2834DFFD0080F455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0B5DD12834DFFB0080F455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0B5DE12834DFFD0080F455 /* main.m in Sources */,
+				CD0B5DDA2834DFFB0080F455 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DE32834DFFD0080F455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0B5DEC2834DFFD0080F455 /* AutoLabelOutAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B5DED2834DFFD0080F455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0B5DF62834DFFD0080F455 /* AutoLabelOutAppUITests.m in Sources */,
+				CD0B5DF82834DFFD0080F455 /* AutoLabelOutAppUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0B5DE92834DFFD0080F455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0B5DD42834DFFB0080F455 /* AutoLabelOutApp */;
+			targetProxy = CD0B5DE82834DFFD0080F455 /* PBXContainerItemProxy */;
+		};
+		CD0B5DF32834DFFD0080F455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0B5DD42834DFFB0080F455 /* AutoLabelOutApp */;
+			targetProxy = CD0B5DF22834DFFD0080F455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0B5DDD2834DFFD0080F455 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0B5DDE2834DFFD0080F455 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0B5DF92834DFFD0080F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD0B5DFA2834DFFD0080F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD0B5DFC2834DFFD0080F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoLabelOutApp/AutoLabelOutApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD0B5DFD2834DFFD0080F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoLabelOutApp/AutoLabelOutApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD0B5DFF2834DFFD0080F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLabelOutApp.app/Contents/MacOS/AutoLabelOutApp";
+			};
+			name = Debug;
+		};
+		CD0B5E002834DFFD0080F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLabelOutApp.app/Contents/MacOS/AutoLabelOutApp";
+			};
+			name = Release;
+		};
+		CD0B5E022834DFFD0080F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AutoLabelOutApp;
+			};
+			name = Debug;
+		};
+		CD0B5E032834DFFD0080F455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AutoLabelOutAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AutoLabelOutApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0B5DD02834DFFB0080F455 /* Build configuration list for PBXProject "AutoLabelOutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0B5DF92834DFFD0080F455 /* Debug */,
+				CD0B5DFA2834DFFD0080F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0B5DFB2834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0B5DFC2834DFFD0080F455 /* Debug */,
+				CD0B5DFD2834DFFD0080F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0B5DFE2834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0B5DFF2834DFFD0080F455 /* Debug */,
+				CD0B5E002834DFFD0080F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0B5E012834DFFD0080F455 /* Build configuration list for PBXNativeTarget "AutoLabelOutAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0B5E022834DFFD0080F455 /* Debug */,
+				CD0B5E032834DFFD0080F455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0B5DCD2834DFFB0080F455 /* Project object */;
+}

@@ -6,7 +6,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "ConfigurationWindowController.h""
+#import "ConfigurationWindowController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -74,7 +74,7 @@ Gw
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="-44" y="118"/>
+            <point key="canvasLocation" x="121" y="17"/>
         </window>
         <userDefaultsController representsSharedInstance="YES" id="JYk-03-egs"/>
     </objects>

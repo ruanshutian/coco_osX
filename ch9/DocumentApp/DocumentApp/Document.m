@@ -37,9 +37,9 @@
     return self;
 }
 
-+ (BOOL)autosavesInPlace {
-    return YES;
-}
+//+ (BOOL)autosavesInPlace {
+//    return YES;
+//}
 
 //- (NSMutableArray <Employee *> *)employees {
 //    if (!_employees) {
