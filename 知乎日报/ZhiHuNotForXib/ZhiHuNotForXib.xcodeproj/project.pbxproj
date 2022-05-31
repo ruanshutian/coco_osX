@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD825E092843975C0017CE39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E082843975C0017CE39 /* AppDelegate.m */; };
+		CD825E0B2843975E0017CE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD825E0A2843975E0017CE39 /* Assets.xcassets */; };
+		CD825E0E2843975E0017CE39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD825E0C2843975E0017CE39 /* MainMenu.xib */; };
+		CD825E102843975E0017CE39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E0F2843975E0017CE39 /* main.m */; };
+		CD825E1B2843975E0017CE39 /* ZhiHuNotForXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E1A2843975E0017CE39 /* ZhiHuNotForXibTests.m */; };
+		CD825E252843975E0017CE39 /* ZhiHuNotForXibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E242843975E0017CE39 /* ZhiHuNotForXibUITests.m */; };
+		CD825E272843975E0017CE39 /* ZhiHuNotForXibUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E262843975E0017CE39 /* ZhiHuNotForXibUITestsLaunchTests.m */; };
+		CD825E36284397980017CE39 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E34284397980017CE39 /* MainWindowController.m */; };
+		CD825E37284397980017CE39 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD825E35284397980017CE39 /* MainWindowController.xib */; };
+		CD825E3D2843994F0017CE39 /* MainSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E3C2843994F0017CE39 /* MainSplitView.m */; };
+		CD825E41284452620017CE39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E3F284452620017CE39 /* MainViewController.m */; };
+		CD825E482844B12C0017CE39 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E472844B12C0017CE39 /* LeftView.m */; };
+		CD825E4B2844B4530017CE39 /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E4A2844B4530017CE39 /* RightView.m */; };
+		CD825E4F2844C1AC0017CE39 /* ZHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E4E2844C1AC0017CE39 /* ZHTableView.m */; };
+		CD825E5228450FCB0017CE39 /* EntireStories.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E5128450FCA0017CE39 /* EntireStories.m */; };
+		CD825E5528450FDB0017CE39 /* Stories.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E5428450FDB0017CE39 /* Stories.m */; };
+		CD825E5C284510E50017CE39 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E59284510E50017CE39 /* NSObject+YYModel.m */; };
+		CD825E5D284510E50017CE39 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD825E5A284510E50017CE39 /* YYClassInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD825E172843975E0017CE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD825DFC2843975C0017CE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD825E032843975C0017CE39;
+			remoteInfo = ZhiHuNotForXib;
+		};
+		CD825E212843975E0017CE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD825DFC2843975C0017CE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD825E032843975C0017CE39;
+			remoteInfo = ZhiHuNotForXib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD825E042843975C0017CE39 /* ZhiHuNotForXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiHuNotForXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD825E072843975C0017CE39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD825E082843975C0017CE39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD825E0A2843975E0017CE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD825E0D2843975E0017CE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD825E0F2843975E0017CE39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD825E112843975E0017CE39 /* ZhiHuNotForXib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZhiHuNotForXib.entitlements; sourceTree = "<group>"; };
+		CD825E162843975E0017CE39 /* ZhiHuNotForXibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiHuNotForXibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD825E1A2843975E0017CE39 /* ZhiHuNotForXibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiHuNotForXibTests.m; sourceTree = "<group>"; };
+		CD825E202843975E0017CE39 /* ZhiHuNotForXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiHuNotForXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD825E242843975E0017CE39 /* ZhiHuNotForXibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiHuNotForXibUITests.m; sourceTree = "<group>"; };
+		CD825E262843975E0017CE39 /* ZhiHuNotForXibUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiHuNotForXibUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD825E33284397980017CE39 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		CD825E34284397980017CE39 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		CD825E35284397980017CE39 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		CD825E3B2843994F0017CE39 /* MainSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSplitView.h; sourceTree = "<group>"; };
+		CD825E3C2843994F0017CE39 /* MainSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainSplitView.m; sourceTree = "<group>"; };
+		CD825E3E284452620017CE39 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD825E3F284452620017CE39 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD825E462844B12C0017CE39 /* LeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftView.h; sourceTree = "<group>"; };
+		CD825E472844B12C0017CE39 /* LeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftView.m; sourceTree = "<group>"; };
+		CD825E492844B4530017CE39 /* RightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightView.h; sourceTree = "<group>"; };
+		CD825E4A2844B4530017CE39 /* RightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightView.m; sourceTree = "<group>"; };
+		CD825E4C2844B6FA0017CE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD825E4D2844C1A30017CE39 /* ZHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTableView.h; sourceTree = "<group>"; };
+		CD825E4E2844C1AC0017CE39 /* ZHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTableView.m; sourceTree = "<group>"; };
+		CD825E5028450FBD0017CE39 /* EntireStories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntireStories.h; sourceTree = "<group>"; };
+		CD825E5128450FCA0017CE39 /* EntireStories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntireStories.m; sourceTree = "<group>"; };
+		CD825E5328450FD30017CE39 /* Stories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stories.h; sourceTree = "<group>"; };
+		CD825E5428450FDB0017CE39 /* Stories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stories.m; sourceTree = "<group>"; };
+		CD825E57284510E50017CE39 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		CD825E58284510E50017CE39 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		CD825E59284510E50017CE39 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		CD825E5A284510E50017CE39 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		CD825E5B284510E50017CE39 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD825E012843975C0017CE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E132843975E0017CE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E1D2843975E0017CE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD825DFB2843975C0017CE39 = {
+			isa = PBXGroup;
+			children = (
+				CD825E062843975C0017CE39 /* ZhiHuNotForXib */,
+				CD825E192843975E0017CE39 /* ZhiHuNotForXibTests */,
+				CD825E232843975E0017CE39 /* ZhiHuNotForXibUITests */,
+				CD825E052843975C0017CE39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD825E052843975C0017CE39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD825E042843975C0017CE39 /* ZhiHuNotForXib.app */,
+				CD825E162843975E0017CE39 /* ZhiHuNotForXibTests.xctest */,
+				CD825E202843975E0017CE39 /* ZhiHuNotForXibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD825E062843975C0017CE39 /* ZhiHuNotForXib */ = {
+			isa = PBXGroup;
+			children = (
+				CD825E56284510E50017CE39 /* YYModel */,
+				CD825E4C2844B6FA0017CE39 /* Info.plist */,
+				CD825E072843975C0017CE39 /* AppDelegate.h */,
+				CD825E082843975C0017CE39 /* AppDelegate.m */,
+				CD825E33284397980017CE39 /* MainWindowController.h */,
+				CD825E34284397980017CE39 /* MainWindowController.m */,
+				CD825E35284397980017CE39 /* MainWindowController.xib */,
+				CD825E3E284452620017CE39 /* MainViewController.h */,
+				CD825E3F284452620017CE39 /* MainViewController.m */,
+				CD825E3B2843994F0017CE39 /* MainSplitView.h */,
+				CD825E3C2843994F0017CE39 /* MainSplitView.m */,
+				CD825E462844B12C0017CE39 /* LeftView.h */,
+				CD825E472844B12C0017CE39 /* LeftView.m */,
+				CD825E492844B4530017CE39 /* RightView.h */,
+				CD825E4A2844B4530017CE39 /* RightView.m */,
+				CD825E4D2844C1A30017CE39 /* ZHTableView.h */,
+				CD825E4E2844C1AC0017CE39 /* ZHTableView.m */,
+				CD825E5028450FBD0017CE39 /* EntireStories.h */,
+				CD825E5128450FCA0017CE39 /* EntireStories.m */,
+				CD825E5328450FD30017CE39 /* Stories.h */,
+				CD825E5428450FDB0017CE39 /* Stories.m */,
+				CD825E0A2843975E0017CE39 /* Assets.xcassets */,
+				CD825E0C2843975E0017CE39 /* MainMenu.xib */,
+				CD825E0F2843975E0017CE39 /* main.m */,
+				CD825E112843975E0017CE39 /* ZhiHuNotForXib.entitlements */,
+			);
+			path = ZhiHuNotForXib;
+			sourceTree = "<group>";
+		};
+		CD825E192843975E0017CE39 /* ZhiHuNotForXibTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD825E1A2843975E0017CE39 /* ZhiHuNotForXibTests.m */,
+			);
+			path = ZhiHuNotForXibTests;
+			sourceTree = "<group>";
+		};
+		CD825E232843975E0017CE39 /* ZhiHuNotForXibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD825E242843975E0017CE39 /* ZhiHuNotForXibUITests.m */,
+				CD825E262843975E0017CE39 /* ZhiHuNotForXibUITestsLaunchTests.m */,
+			);
+			path = ZhiHuNotForXibUITests;
+			sourceTree = "<group>";
+		};
+		CD825E56284510E50017CE39 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD825E57284510E50017CE39 /* YYClassInfo.h */,
+				CD825E58284510E50017CE39 /* YYModel.h */,
+				CD825E59284510E50017CE39 /* NSObject+YYModel.m */,
+				CD825E5A284510E50017CE39 /* YYClassInfo.m */,
+				CD825E5B284510E50017CE39 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD825E032843975C0017CE39 /* ZhiHuNotForXib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD825E2A2843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXib" */;
+			buildPhases = (
+				CD825E002843975C0017CE39 /* Sources */,
+				CD825E012843975C0017CE39 /* Frameworks */,
+				CD825E022843975C0017CE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiHuNotForXib;
+			productName = ZhiHuNotForXib;
+			productReference = CD825E042843975C0017CE39 /* ZhiHuNotForXib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD825E152843975E0017CE39 /* ZhiHuNotForXibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD825E2D2843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXibTests" */;
+			buildPhases = (
+				CD825E122843975E0017CE39 /* Sources */,
+				CD825E132843975E0017CE39 /* Frameworks */,
+				CD825E142843975E0017CE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD825E182843975E0017CE39 /* PBXTargetDependency */,
+			);
+			name = ZhiHuNotForXibTests;
+			productName = ZhiHuNotForXibTests;
+			productReference = CD825E162843975E0017CE39 /* ZhiHuNotForXibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD825E1F2843975E0017CE39 /* ZhiHuNotForXibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD825E302843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXibUITests" */;
+			buildPhases = (
+				CD825E1C2843975E0017CE39 /* Sources */,
+				CD825E1D2843975E0017CE39 /* Frameworks */,
+				CD825E1E2843975E0017CE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD825E222843975E0017CE39 /* PBXTargetDependency */,
+			);
+			name = ZhiHuNotForXibUITests;
+			productName = ZhiHuNotForXibUITests;
+			productReference = CD825E202843975E0017CE39 /* ZhiHuNotForXibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD825DFC2843975C0017CE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD825E032843975C0017CE39 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CD825E152843975E0017CE39 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CD825E032843975C0017CE39;
+					};
+					CD825E1F2843975E0017CE39 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CD825E032843975C0017CE39;
+					};
+				};
+			};
+			buildConfigurationList = CD825DFF2843975C0017CE39 /* Build configuration list for PBXProject "ZhiHuNotForXib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD825DFB2843975C0017CE39;
+			productRefGroup = CD825E052843975C0017CE39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD825E032843975C0017CE39 /* ZhiHuNotForXib */,
+				CD825E152843975E0017CE39 /* ZhiHuNotForXibTests */,
+				CD825E1F2843975E0017CE39 /* ZhiHuNotForXibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD825E022843975C0017CE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD825E0B2843975E0017CE39 /* Assets.xcassets in Resources */,
+				CD825E37284397980017CE39 /* MainWindowController.xib in Resources */,
+				CD825E0E2843975E0017CE39 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E142843975E0017CE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E1E2843975E0017CE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD825E002843975C0017CE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD825E36284397980017CE39 /* MainWindowController.m in Sources */,
+				CD825E5528450FDB0017CE39 /* Stories.m in Sources */,
+				CD825E5228450FCB0017CE39 /* EntireStories.m in Sources */,
+				CD825E102843975E0017CE39 /* main.m in Sources */,
+				CD825E5D284510E50017CE39 /* YYClassInfo.m in Sources */,
+				CD825E3D2843994F0017CE39 /* MainSplitView.m in Sources */,
+				CD825E41284452620017CE39 /* MainViewController.m in Sources */,
+				CD825E4B2844B4530017CE39 /* RightView.m in Sources */,
+				CD825E4F2844C1AC0017CE39 /* ZHTableView.m in Sources */,
+				CD825E5C284510E50017CE39 /* NSObject+YYModel.m in Sources */,
+				CD825E092843975C0017CE39 /* AppDelegate.m in Sources */,
+				CD825E482844B12C0017CE39 /* LeftView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E122843975E0017CE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD825E1B2843975E0017CE39 /* ZhiHuNotForXibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD825E1C2843975E0017CE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD825E252843975E0017CE39 /* ZhiHuNotForXibUITests.m in Sources */,
+				CD825E272843975E0017CE39 /* ZhiHuNotForXibUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD825E182843975E0017CE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD825E032843975C0017CE39 /* ZhiHuNotForXib */;
+			targetProxy = CD825E172843975E0017CE39 /* PBXContainerItemProxy */;
+		};
+		CD825E222843975E0017CE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD825E032843975C0017CE39 /* ZhiHuNotForXib */;
+			targetProxy = CD825E212843975E0017CE39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD825E0C2843975E0017CE39 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD825E0D2843975E0017CE39 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD825E282843975E0017CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD825E292843975E0017CE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD825E2B2843975E0017CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZhiHuNotForXib/ZhiHuNotForXib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZhiHuNotForXib/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD825E2C2843975E0017CE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZhiHuNotForXib/ZhiHuNotForXib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZhiHuNotForXib/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD825E2E2843975E0017CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiHuNotForXib.app/Contents/MacOS/ZhiHuNotForXib";
+			};
+			name = Debug;
+		};
+		CD825E2F2843975E0017CE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiHuNotForXib.app/Contents/MacOS/ZhiHuNotForXib";
+			};
+			name = Release;
+		};
+		CD825E312843975E0017CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ZhiHuNotForXib;
+			};
+			name = Debug;
+		};
+		CD825E322843975E0017CE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.ZhiHuNotForXibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ZhiHuNotForXib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD825DFF2843975C0017CE39 /* Build configuration list for PBXProject "ZhiHuNotForXib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD825E282843975E0017CE39 /* Debug */,
+				CD825E292843975E0017CE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD825E2A2843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD825E2B2843975E0017CE39 /* Debug */,
+				CD825E2C2843975E0017CE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD825E2D2843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD825E2E2843975E0017CE39 /* Debug */,
+				CD825E2F2843975E0017CE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD825E302843975E0017CE39 /* Build configuration list for PBXNativeTarget "ZhiHuNotForXibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD825E312843975E0017CE39 /* Debug */,
+				CD825E322843975E0017CE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD825DFC2843975C0017CE39 /* Project object */;
+}
